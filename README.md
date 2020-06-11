@@ -1,4 +1,4 @@
-##Superhero Hunter
+# Superhero Hunter
 
 This is a website where you can search for any fictional character from DC and Marvel Comics. The relevant information regarding the character is displayed. You can also add your favourite characters to a Favourites list, and access them from the 'Favourites' section.
 
