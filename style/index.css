@@ -111,9 +111,6 @@ form{
     text-align: center;
 }
 
-#suggestions{
-    width: 100%;
-}
 
 input{
     width: 100%;
@@ -123,18 +120,63 @@ input{
     box-shadow: 0 0 5px 2px rgba(255,255,255,0.2);
 }
 
+/* .....Suggestion box..... */
+
+
+#suggestions{
+    width: 100%;
+}
+
 .suggestion-item{
     width: 100%;
     padding: 10px;
     background-color: white;
     text-align: left;
     border-bottom: 1px solid grey;
-    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.suggestion-item:hover{
-    background-color: rgb(240, 239, 239);
+.suggestion-item-image{
+    height: 100px;
+    /* width: 30px; */
 }
+
+.suggestion-item-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+
+
+.bg-red, .bg-green, .searchButton{
+    padding: 5px;
+    border-radius: 5px;
+    /* border: black 1px solid; */
+    width: fit-content;
+    cursor: pointer;
+    font-size: 80%;
+}
+
+.bg-red:hover, .bg-green:hover, .searchButton:hover{
+    box-shadow: rgba(92, 92, 92, 0.472) 5px 5px 15px 2px;
+}
+
+.bg-green{
+    background-color:#39920085
+}
+
+.bg-red{
+    background-color:#f443369c
+}
+
+.searchButton{
+    background-color: rgb(180, 179, 179);
+}
+
 
 /* ......Footer........ */
 
